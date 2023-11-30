@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Underground SHAMBALA</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Turret+Road:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<style>
+.container2 {
+    border-width: 5px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    border-color: brown;
+    padding: 10px;
+    margin:auto;
+    align-content: left;
+}
+
+.container {
+    padding:20px;
+    background-color: tan;
+    color:black;
+    border: black;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow:color(brown);
+    font-family: 'Turret Road', cursive;
+}
+
+.Bio {
+    font-size: x-small;
+    padding: 30px;
+    width:fit-content;
+    background-color: brown;
+    color: antiquewhite;
+    margin:auto;
+    align-content: left;
+
+}
+
+.deco {
+    background-color: black;
+    padding: 30px;
+    border-color: brown;
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+.title {background-color: brown;
+color:white;}
+
+.col-sm {width:25%;
+background-color: black;
+color:blanchedalmond;
+}
+
+h1{
+font-family: 'Turret Road', cursive;
+background-color: brown;
+text-align: center;
+
+}
+
+h2 {font-size: larger;
+    font-family: 'Turret Road', cursive;}
+
+h3 {font-size: small;
+        font-family: 'Fuggles', cursive;
+    background-color: brown;
+    color:antiquewhite;
+    text-align: center;
+} 
+h5 {
+    border: 10px;
+    padding: 10px;
+    border-color: brown;
+    padding:color(brown);
+
+
+}
+table {width:fit-content;
+margin: auto;
+justify-items: center;}
+
+body {background-color: burlywood;
+color:blanchedalmond;
+font-family: font-family: 'Turret Road', cursive;}
+
+.titulo2 {
+  background-color: black;
+  color:brown;
+
+}
+
+.temperaturaF .temperaturaC {
+  
+  font-style: bold;
+  font-family:'Courier New', Courier, monospace;
+  font-size: larger;
+
+};
+
+.day .tiempo {
+  font-size: larger;
+  font-style: bold;
+  font-weight: 500;
+  background-color: brown;
+  padding: 50px;
+  margin: 50px;
+  border: 60px;
+  opacity: 40%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+};
+
+</style>
+<body>
+    <div style="title">
+<h1 class="titulo">
+    💣💨Weather Underground💨💣
+</h1>
+<h3 style="quote">"You don't need a weatherman to know which way the weather blows" - Bob Dylan</h3>
+
+<img src="W_U_S.png" class="deco "width="200px">
+</br>
+
+</div>
+
+<div class="input">
+<form action="submit" id="form1">
+    <label for="city">Enter your city, state:</label>
+<input type="text" id="city1" class="city1" />
+<input type="submit" label="Change City"/>
+</form>
+</div>
+</br>
+</br>
+<div class="today">
+
+    <h4 id="titulo2">Shambala, BN </h4>
+    
+
+</div>
+
+<div class="container">
+    
+    <h2><div id="day" class="day">Tuesday </div> <div id="tiempo" class="tiempo">18:00</div></br></h2>
+        <h5>
+    Partly Cloudy </br>
+        ☀️ <b> <div id="temperaturaF">30</div></b><b><div id="temperaturaC">30</div></b></br>
+        Precipitation: 0% </br>
+        Humidity: 77% </br>
+        Wind: 10 km/h </br>
+    </h5>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Temp</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"></th>
+                <td>Wed</td>
+                <td>Thur</td>
+                <td>Fri</td>
+                <td>Sat</td>
+                <td>Sun</td>
+                <td>Mon</td>
+                <td>Tues</td>
+              </tr>
+              <tr>
+                <th scope="row">Hi/Low</th>
+                <td>88°/68°</td>
+                <td>90°/65°</td>
+                <td>92°/65°</td>
+                <td>93°/66°</td>
+                <td>78°/58°</td>
+                <td>79°/55°</td>
+                <td>80°/56°</td>
+              </tr>
+              <tr>
+                <th scope="row"></th>
+                <td>🌤️</td>
+                <td>⛅</td>
+                <td>🌦️</td>
+                <td>☀️</td>
+                <td>⛈️</td>
+                <td>🌩️</td>
+                <td>🌤️</td>
+              </tr>
+            </tbody>
+          </table>
+
+      </div>
+      <div class="col-sm">
+        <div class="container2">
+        <h2 id="titulo3>Meet the Weathermen!</h2>
+        <ul class="Bio">
+            <li> Anchor: </br> <img src="Bill_Ayers.jpg" width="100px"></li>
+            <li> Anchor: </br><img src="B_D.jpg" width="100px"></li>
+            <li> Meteorologist: </br><img src="J_J.jpg" width="100px"></li>
+            <li> Camerman: </br><img src="L_H.png" width="100px"></li>
+            <li> Director: </br> <img src="T_J.png" width="100px"></li>
+            <li> Film Editor:</br> <img src="C_M.png" width="100px"></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+
+document.getElementById("titulo2").innerHTML = "Shambala";
+
+function tempFtoC() {
+let F=prompt("Enter temp in F here:");
+tempC=(F-32)*(5/9);
+tempC=Math.round(tempC);
+tempC=(tempC + " °C");
+//alert(tempC);
+};
+
+tempFtoC()
+
+function tempCtoF() {
+  let C=prompt("Enter temp in C here:");
+tempF=C* (9/5) +32;
+tempF=Math.round(tempF);
+tempF=(tempF + " °F")
+//alert(tempF);
+};
+
+
+
+tempCtoF()
+
+
+document.getElementById("temperaturaF").innerHTML = tempF;
+document.getElementById("temperaturaC").innerHTML = tempC;
+
+function gettime() {
+
+  const currentDate = new Date();
+  const hours = currentDate.getHours();
+  const minutes = currentDate.getMinutes();
+  const dayofweek = currentDate.getDay();
+
+  let weekdays=["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];
+  let daily=weekdays[dayofweek];
+
+  const displaytime=(hours+":"+minutes);
+
+  //let j=prompt("What is my middle fucking name");
+  //alert(displaytime);
+
+  document.getElementById("tiempo").innerHTML = displaytime;
+  document.getElementById("day").innerHTML = daily;
+
+
+  
+
+};
+
+gettime()
+let input=prompt("What is the city?")
+const cityvar=document.getElementById('form1.city1.value');
+console.log(cityvar);
+alert(form1.city1.value);
+alert(cityvar);
+
+</script>
+    
+</body>
+</html>
